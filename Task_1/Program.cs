@@ -11,7 +11,6 @@
 8 4 4 2 */
 
 Console.Clear();
-Console.Clear();
 int rows = UserInput("Введите количество строк: ", "Введено неверное значение!");
 int columns = UserInput("Введите количество столбцов: ", "Введено неверное значение!");
 int[,] array = ArrayOfRealNumbers(rows, columns, 0, 10);
