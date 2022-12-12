@@ -17,11 +17,6 @@ PrintArray(array);
 
 
 
-
-
-
-
-
 int[,] ArrayOfRealNumbers(int rows, int columns)
 {
     int[,] arr = new int[rows, columns];
@@ -62,17 +57,6 @@ int[,] ArrayOfRealNumbers(int rows, int columns)
         n++;
     }
     return arr;
-    /*int[,] arr = new int[rows, columns];
-    int count = 1;
-    for (int i = 0; i < rows; i++)
-    {
-        for (int j = 0; j < columns; j++)
-        {
-            arr[i,j] = count;
-            count++;
-        }
-    }*/
-    //return arr;
 }
 
 void PrintArray(int[,] inArray)
