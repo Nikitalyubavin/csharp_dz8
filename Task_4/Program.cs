@@ -57,7 +57,7 @@ int[,,] ArrayOfRealNumbers(int rows, int columns, int depth, int minValue, int m
         {
             for (int k = 0; k < depth; k++)
             {
-                arr[i, j, k] = new Random().Next(minValue, maxValue + 1);
+                arr[i, j, k] = new Random().Next(minValue, maxValue);
             }
         }
     }
